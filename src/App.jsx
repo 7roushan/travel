@@ -1,15 +1,12 @@
-import React from 'react'
-import MainRouter from '../../frontend/src/Router/MainRouter'
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
+import React from "react";
 
-import store from "./redux/store"; 
+import MainRouter from "./router/MainRouter";
 const App = () => {
   return (
     <>
-      <MainRouter/>
+      <MainRouter />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
